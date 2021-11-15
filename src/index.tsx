@@ -24,6 +24,7 @@ export interface DocViewerProps {
   theme?: ITheme;
   pluginRenderers?: DocRenderer[];
   prefetchMethod?: string;
+  initialFileNo?: number;
 }
 
 const DocViewer: FC<DocViewerProps> = (props) => {
