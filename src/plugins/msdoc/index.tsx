@@ -14,6 +14,7 @@ const MSDocRenderer: DocRenderer = ({ mainState: { currentDocument } }) => {
           currentDocument.uri
         )}`}
         frameBorder="0"
+        sandbox="allow-same-origin allow-scripts"
       />
     </Container>
   );

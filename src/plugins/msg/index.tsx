@@ -70,7 +70,7 @@ const MSGRenderer: DocRenderer = ({ mainState: { currentDocument } }) => {
         </ul>
       </RecipientContainer>
 
-      <BodyIFrame id="msg-body" sandbox="allow-same-origin" />
+      <BodyIFrame id="msg-body" sandbox="allow-same-origin allow-scripts" />
     </Container>
   );
 };
